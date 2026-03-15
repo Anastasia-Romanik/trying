@@ -8,7 +8,7 @@
 
 ## 👥 Roles & Responsibilities
 
-### 👤 Role 1: Lead Software Architect (Lena) — 100 hours
+### 👤 Role 1: Lead Software Architect (Yeliena) — 100 hours
 *The "Passport Office": Ensuring the file officially identifies itself as a PDF/X.*
 
 * **Focus:** Metadata, architectural design, and integration.
@@ -36,7 +36,7 @@
     * Prepress guides on Bleed, Trim, and Media Boxes.
     * `fpdf2` documentation on Unicode & TrueType Fonts (`fpdf.py` and `fonts.py`).
 
-### 👤 Role 3: Compliance & DevOps Engineer (Nastya) — 100 hours
+### 👤 Role 3: Compliance & DevOps Engineer (Anastasia) — 100 hours
 *The "Colorist & Police": Enforcing strict rules and validating the entire team's work.*
 
 * **Focus:** Color management (ICC), validation, and CI/CD.
