@@ -1,4 +1,4 @@
-# 📄 Project Plan: Implementing PDF/X-1a Industry Standard in fpdf2
+# Project Plan: Implementing PDF/X-1a Industry Standard in fpdf2
 
 **Engineering Goal:** Expand the architecture of the `fpdf2` library to support the ISO 15930 (PDF/X-1a) standard, ensuring automatic validation (Compliance Enforcement) and color profile embedding.
 
@@ -6,9 +6,9 @@
 
 ---
 
-## 👥 Roles & Responsibilities
+## Roles & Responsibilities
 
-### 👤 Role 1: Lead Software Architect (Yeliena) — 100 hours
+### Role 1: Lead Software Architect (Yeliena) — 100 hours
 *The "Passport Office": Ensuring the file officially identifies itself as a PDF/X.*
 
 * **Focus:** Metadata, architectural design, and integration.
@@ -22,7 +22,7 @@
     * Adobe XMP Specification (PDF section).
     * `fpdf2` source code, specifically `syntax.py` to understand object creation.
 
-### 👤 Role 2: Core Graphics Developer (Polina) — 100 hours
+### Role 2: Core Graphics Developer (Polina) — 100 hours
 *The "Geometer": Managing physical dimensions, boundaries, and typography.*
 
 * **Focus:** Page geometry (Page Boxes) and font restrictions.
@@ -36,7 +36,7 @@
     * Prepress guides on Bleed, Trim, and Media Boxes.
     * `fpdf2` documentation on Unicode & TrueType Fonts (`fpdf.py` and `fonts.py`).
 
-### 👤 Role 3: Compliance & DevOps Engineer (Anastasia) — 100 hours
+### Role 3: Compliance & DevOps Engineer (Anastasia) — 100 hours
 *The "Colorist & Police": Enforcing strict rules and validating the entire team's work.*
 
 * **Focus:** Color management (ICC), validation, and CI/CD.
@@ -53,7 +53,7 @@
 
 ---
 
-## 🛠 Engineering Components
+## Engineering Components
 
 ### 1. Architectural Design
 Before writing code, the team must document the solutions:
@@ -69,7 +69,7 @@ This is the core engineering logic: methods must verify color models, forbid tra
 
 ---
 
-## 📅 Roadmap
+## Roadmap
 
 | Phase | Tasks | Deadline |
 | :--- | :--- | :--- |
@@ -82,7 +82,7 @@ This is the core engineering logic: methods must verify color models, forbid tra
 
 ---
 
-## ⚠️ Risks & Mitigation
+## Risks & Mitigation
 
 1.  **Font Complexity:** Embedding fonts is challenging.
     * *Solution:* Verify if `fpdf2` already embeds the selected font; if not, throw an explicit error during initialization.
@@ -91,7 +91,7 @@ This is the core engineering logic: methods must verify color models, forbid tra
 
 ---
 
-## 🚀 Quick Start (First 5-10 hours)
+## Quick Start (First 5-10 hours)
 A recommended "Reverse-Engineering" exercise for all team members:
 1. Find a valid PDF/X-1a file online.
 2. Open it in a raw text editor (e.g., Notepad++).
